@@ -6,7 +6,7 @@ class MyThread extends Thread {
 
 
     public void run() {
-        System.out.println("Hello World");
+        System.out.println("something here");
         System.out.println(Thread.currentThread().getName());
     }
 }
